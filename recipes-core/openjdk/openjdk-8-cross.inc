@@ -28,6 +28,7 @@ PACKAGECONFIG[gif] = "--with-giflib=system,--with-giflib=bundled,giflib,"
 export WANT_LLVM_RELEASE = "3.5.2"
 PACKAGECONFIG[zero] = "--with-jvm-variants=zero,,,"
 PACKAGECONFIG[shark] = "--with-jvm-variants=zeroshark,,llvm3.5,"
+PACKAGECONFIG[client] = "--with-jvm-variants=client,,,"
 
 PACKAGECONFIG[repack] = ",,,"
 
